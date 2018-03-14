@@ -162,7 +162,7 @@ else:
   dev = usb.core.find(idVendor=USB_VENDOR, idProduct=USB_PRODUCT)
 
 print dev
-print "\nKGROBOT 5/31/16 DEFAULT\n"
+print "\nKGROBOT 5/23/17 iPazz Control Update\n"
 
 endpoint = dev[0][(0,0)][0]
 
@@ -481,9 +481,3 @@ while True:
 
 
     time.sleep(0.02)
-
-
-
-
-
-
